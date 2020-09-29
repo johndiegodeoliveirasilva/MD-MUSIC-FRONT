@@ -1,75 +1,88 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-h1,
-h2,
-h4 {
-    font-family: Righteos, cursive;
-    font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous, cursive";
 }
 
 h1 {
-    font-size: 24px;
+  font-size: 24px;
+}
+
+.mm-navtop {
+  width: 100%;
+  display: inline-block;
+}
+
+.mm-navtop a {
+  float: left;
+  text-decoration: none;
+  margin: 13px 20px;
+  color: #fff;
+}
+
+/* Icon right */
+.mm-icon-bar {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
 }
 
 
 /* Font */
 
 @font-face {
-    font-family: 'Righteos, cursive';
-    src: url(/font/Righteous-Regular.ttf);
+  font-family: "Righteous, cursive";
+  src: url(/font/Righteous-Regular.ttf);
 }
-
 
 /* Utilitaries */
 
 .mm-bk-black {
-    background-color: #0202;
+  background-color: #000;
 }
 
 .mm-cl-white {
-    color: #fff
+  color: #fff;
 }
-
+.mm-bk-white {
+    background-color: #fff;
+}
 .mm-bk-greenBlue {
-    background-color: #C7D6DB;
+  background-color: #c7d6db;
 }
 
 .mm-bk-gray {
-    background-color: #c4c4c4;
+  background-color: #c4c4c4;
 }
 
 .mm-ft-big {
-    font-size: 64px;
+  font-size: 64px;
 }
-
 
 /* Responsive */
 
-
 /* Extra small devices (phones, 576px and down*/
 
-@media only screen and(max-width:576px) {}
-
+@media only screen and(max-width:576px) {
+}
 
 /* Small devices (portrait tablets and larges phones, 576px and up) */
 
-@media only screen and (min-width:576px) {}
-
+@media only screen and (min-width: 576px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width:768px) {}
-
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up)*/
 
-@media only screen and (min-width:992px) {}
-
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width:1200px) {}
+@media only screen and (min-width: 1200px) {
+}
