@@ -84,6 +84,16 @@ h1 {
 }
 
 
+/* TopBanner with text align in center*/
+.mm-topBanner {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  
+}
+
+
 /* Font */
 
 @font-face {
