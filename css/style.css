@@ -23,9 +23,64 @@ h1 {
 
 /* Icon right */
 .mm-icon-bar {
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: white;
+  padding: 2px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+
+/* Driodown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #000;
+   
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #c7d6db;
+  
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
@@ -45,9 +100,11 @@ h1 {
 .mm-cl-white {
   color: #fff;
 }
+
 .mm-bk-white {
-    background-color: #fff;
+  background-color: #fff;
 }
+
 .mm-bk-greenBlue {
   background-color: #c7d6db;
 }
@@ -64,25 +121,20 @@ h1 {
 
 /* Extra small devices (phones, 576px and down*/
 
-@media only screen and(max-width:576px) {
-}
+@media only screen and(max-width:576px) {}
 
 /* Small devices (portrait tablets and larges phones, 576px and up) */
 
-@media only screen and (min-width: 576px) {
-}
+@media only screen and (min-width: 576px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up)*/
 
-@media only screen and (min-width: 992px) {
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}
