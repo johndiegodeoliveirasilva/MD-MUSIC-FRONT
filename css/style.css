@@ -131,7 +131,37 @@ h1 {
   border: 2px solid #000;
   border-radius: 3px;
 }
+.mm-button-registre {
+  
+  display: block;
+  position: absolute;
+  top: 190px;
+  left: 80px;
+}
+.mm-rotate-ico {
+  background-color: #C7D6DB;
+  width: 26px;
+  height: 26px;
+  position: relative;  
+}
 
+.mm-rotate-ico:after {
+  content: '';
+  height: 26px;
+  border-left: 4px solid #fff;
+  position: absolute;
+  transform: rotate(90deg);
+  left: 11px;
+}
+
+.mm-rotate-ico:before {
+  content: '';
+  height: 26px;
+  border-left: 4px solid #fff;
+  position: absolute;
+  transform: rotate(-180deg);
+  left: 11px;
+}
 /* Font */
 
 @font-face {
