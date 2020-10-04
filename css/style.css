@@ -126,7 +126,7 @@ h1 {
 }
 
 .mm-button-content {
-    display: inline-block;
+    display: table;
     position: absolute;
     top: 350px;
     left: 58px;
@@ -186,6 +186,51 @@ h1 {
 }
 
 
+/* Grid Container */
+
+.mm-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 72px;
+    grid-row-gap: 60px;
+    padding: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mm-item-card {
+    height: auto;
+    margin: 0;
+    background-color: #fff;
+}
+
+.mm-card-text {
+    padding: 0 40px;
+}
+
+.mm-card-text h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 17px 0 10px 0;
+    margin: 0;
+}
+
+.mm-card-text p {
+    text-align: justify;
+    font-size: 9px;
+}
+
+.mm-button button {
+    margin: 10px;
+    padding: 2px 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+}
+
+
 /* Font */
 
 @font-face {
@@ -218,6 +263,10 @@ h1 {
 
 .mm-ft-big {
     font-size: 64px;
+}
+
+.mm-bx {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
